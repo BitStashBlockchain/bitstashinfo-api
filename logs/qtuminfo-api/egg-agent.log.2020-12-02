@@ -1,0 +1,12 @@
+2020-12-02 00:00:01,013 INFO 1541 [egg-logrotator] agent logger reload: got log-reload message
+2020-12-02 03:29:48,656 INFO 5201 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-12-02 03:29:47,971 INFO 5201 [egg:logger] init all loggers with options: {"dir":"/root/bitstashinfo-api/logs/bitstashinfo-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bitstashinfo-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-12-02 03:29:48,474 INFO 5201 [egg:core] dump config after load, 5ms
+2020-12-02 03:29:48,551 INFO 5201 [egg-watcher] Start watching: ["/root/bitstashinfo-api/app","/root/bitstashinfo-api/config","/root/bitstashinfo-api/mocks","/root/bitstashinfo-api/mocks_proxy","/root/bitstashinfo-api/app.js"]
+2020-12-02 03:29:48,551 INFO 5201 [egg-watcher] Start watching: "/root/bitstashinfo-api/app"
+2020-12-02 03:29:48,551 INFO 5201 [egg-watcher] Start watching: "/root/bitstashinfo-api/config"
+2020-12-02 03:29:48,551 INFO 5201 [egg-watcher] Start watching: "/root/bitstashinfo-api/mocks"
+2020-12-02 03:29:48,551 INFO 5201 [egg-watcher] Start watching: "/root/bitstashinfo-api/mocks_proxy"
+2020-12-02 03:29:48,552 INFO 5201 [egg-watcher] Start watching: "/root/bitstashinfo-api/app.js"
+2020-12-02 03:29:48,553 INFO 5201 [egg-watcher:agent] watcher start success
+2020-12-02 03:29:48,679 INFO 5201 [egg:core] dump config after ready, 15ms

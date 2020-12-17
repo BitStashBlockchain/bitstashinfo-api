@@ -1,0 +1,337 @@
+{
+  "keys": "/root/bitstashinfo-api/config/config.default.js",
+  "security": {
+    "domainWhiteList": "/root/bitstashinfo-api/config/config.default.js",
+    "protocolWhiteList": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "type": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "useSession": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "headerName": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "queryName": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "value": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/root/bitstashinfo-api/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "value": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "value": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "policy": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "middleware": "/root/bitstashinfo-api/config/config.default.js",
+  "redis": {
+    "client": {
+      "host": "/root/bitstashinfo-api/config/config.default.js",
+      "port": "/root/bitstashinfo-api/config/config.default.js",
+      "password": "/root/bitstashinfo-api/config/config.default.js",
+      "db": "/root/bitstashinfo-api/config/config.default.js"
+    },
+    "default": "/root/bitstashinfo-api/node_modules/egg-redis/config/config.default.js",
+    "app": "/root/bitstashinfo-api/node_modules/egg-redis/config/config.default.js",
+    "agent": "/root/bitstashinfo-api/node_modules/egg-redis/config/config.default.js",
+    "supportTimeCommand": "/root/bitstashinfo-api/node_modules/egg-redis/config/config.default.js"
+  },
+  "cors": {
+    "origin": "/root/bitstashinfo-api/config/config.default.js"
+  },
+  "sequelize": {
+    "dialect": "/root/bitstashinfo-api/config/config.default.js",
+    "database": "/root/bitstashinfo-api/config/config.default.js",
+    "host": "/root/bitstashinfo-api/config/config.default.js",
+    "port": "/root/bitstashinfo-api/config/config.default.js",
+    "username": "/root/bitstashinfo-api/config/config.default.js",
+    "password": "/root/bitstashinfo-api/config/config.default.js"
+  },
+  "ratelimit": {
+    "db": "/root/bitstashinfo-api/config/config.default.js",
+    "headers": {
+      "remaining": "/root/bitstashinfo-api/config/config.default.js",
+      "reset": "/root/bitstashinfo-api/config/config.default.js",
+      "total": "/root/bitstashinfo-api/config/config.default.js"
+    },
+    "disableHeader": "/root/bitstashinfo-api/config/config.default.js",
+    "errorMessage": "/root/bitstashinfo-api/config/config.default.js",
+    "duration": "/root/bitstashinfo-api/config/config.default.js",
+    "max": "/root/bitstashinfo-api/config/config.default.js"
+  },
+  "io": {
+    "redis": {
+      "host": "/root/bitstashinfo-api/config/config.default.js",
+      "port": "/root/bitstashinfo-api/config/config.default.js",
+      "password": "/root/bitstashinfo-api/config/config.default.js",
+      "db": "/root/bitstashinfo-api/config/config.default.js",
+      "key": "/root/bitstashinfo-api/config/config.default.js"
+    },
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "/root/bitstashinfo-api/config/config.default.js",
+        "packetMiddleware": "/root/bitstashinfo-api/node_modules/egg-socket.io/config/config.default.js"
+      }
+    },
+    "init": "/root/bitstashinfo-api/node_modules/egg-socket.io/config/config.default.js"
+  },
+  "bitstash": {
+    "chain": "/root/bitstashinfo-api/config/config.default.js"
+  },
+  "bitstashinfo": {
+    "path": "/root/bitstashinfo-api/config/config.default.js",
+    "port": "/root/bitstashinfo-api/config/config.default.js",
+    "rpc": {
+      "protocol": "/root/bitstashinfo-api/config/config.default.js",
+      "host": "/root/bitstashinfo-api/config/config.default.js",
+      "port": "/root/bitstashinfo-api/config/config.default.js",
+      "user": "/root/bitstashinfo-api/config/config.default.js",
+      "password": "/root/bitstashinfo-api/config/config.default.js"
+    }
+  },
+  "cmcAPIKey": "/root/bitstashinfo-api/config/config.default.js",
+  "session": {
+    "maxAge": "/root/bitstashinfo-api/node_modules/egg-session/config/config.default.js",
+    "key": "/root/bitstashinfo-api/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/root/bitstashinfo-api/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/root/bitstashinfo-api/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/root/bitstashinfo-api/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/root/bitstashinfo-api/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/root/bitstashinfo-api/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/root/bitstashinfo-api/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/root/bitstashinfo-api/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/root/bitstashinfo-api/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/root/bitstashinfo-api/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/root/bitstashinfo-api/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/root/bitstashinfo-api/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/root/bitstashinfo-api/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/root/bitstashinfo-api/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/root/bitstashinfo-api/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/root/bitstashinfo-api/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/root/bitstashinfo-api/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/root/bitstashinfo-api/node_modules/egg-watcher/config/config.default.js",
+      "development": "/root/bitstashinfo-api/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/root/bitstashinfo-api/node_modules/egg-schedule/config/config.default.js",
+      "file": "/root/bitstashinfo-api/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/root/bitstashinfo-api/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js",
+    "files": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/root/bitstashinfo-api/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/root/bitstashinfo-api/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/root/bitstashinfo-api/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/root/bitstashinfo-api/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/root/bitstashinfo-api/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/root/bitstashinfo-api/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/root/bitstashinfo-api/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/root/bitstashinfo-api/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/root/bitstashinfo-api/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/root/bitstashinfo-api/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/root/bitstashinfo-api/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/root/bitstashinfo-api/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/root/bitstashinfo-api/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/root/bitstashinfo-api/node_modules/egg-static/config/config.default.js",
+    "dir": "/root/bitstashinfo-api/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/root/bitstashinfo-api/node_modules/egg-static/config/config.default.js",
+    "preload": "/root/bitstashinfo-api/node_modules/egg-static/config/config.default.js",
+    "buffer": "/root/bitstashinfo-api/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/root/bitstashinfo-api/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/root/bitstashinfo-api/node_modules/egg-view/config/config.default.js",
+    "cache": "/root/bitstashinfo-api/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/root/bitstashinfo-api/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/root/bitstashinfo-api/node_modules/egg-view/config/config.default.js",
+    "mapping": "/root/bitstashinfo-api/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "name": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "proxy": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "private": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "start": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "stop": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "dev": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "lint": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "egg-cors": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "egg-redis": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "ioredis": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "koa-ratelimit": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "mysql2": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "socket.io-client": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "babel-eslint": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "egg-bin": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "eslint": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "HOME": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "rundir": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "notFound": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "sitefile": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "middlewares": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "httpClient": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "encoding": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "formLimit": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "strict": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "depth": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "encoding": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "env": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "level": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "outputJSON": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "buffer": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "appLogName": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "coreLogName": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "agentLogName": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "errorLogName": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/root/bitstashinfo-api/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "maxSockets": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "maxSockets": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "logging": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "port": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+      "hostname": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/root/bitstashinfo-api/node_modules/egg/config/config.default.js"
+}

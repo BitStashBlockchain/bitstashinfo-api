@@ -1,0 +1,19 @@
+2020-11-22 22:26:03,228 ERROR 1552 [-/undefined/-/45ms POST /wls-wsat/CoordinatorPortType11] nodejs.ECONNRESETError: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writevGeneric (internal/stream_base_commons.js:139:3)
+    at Socket._writeGeneric (net.js:786:11)
+    at Socket._writev (net.js:795:8)
+    at doWrite (_stream_writable.js:401:12)
+    at clearBuffer (_stream_writable.js:519:5)
+    at Socket.Writable.uncork (_stream_writable.js:338:7)
+    at ServerResponse.end (_http_outgoing.js:783:17)
+    at Object.app.context.onerror (/root/bitstashinfo-api/node_modules/koa-onerror/index.js:92:14)
+    at onerror (/root/bitstashinfo-api/node_modules/koa/lib/application.js:159:32)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "write"
+headerSent: true
+name: "ECONNRESETError"
+pid: 1552
+hostname: bitstash-explorer
+

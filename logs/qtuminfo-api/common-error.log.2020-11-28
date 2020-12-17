@@ -1,0 +1,530 @@
+2020-11-28 06:25:32,794 ERROR 1552 [-/127.0.0.1/-/6ms GET /contract/undefined] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:27:11,075 ERROR 1552 [-/::1/-/3ms GET /contract/undefined] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:27:42,950 ERROR 1552 [-/127.0.0.1/-/7ms GET /contract/undefined] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:47:59,152 ERROR 1552 [-/::1/-/10ms GET /contract/src20] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:47:59,167 ERROR 1552 [-/127.0.0.1/-/2ms GET /contract/src20/txs?page=0&pageSize=20] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:48:07,669 ERROR 1552 [-/127.0.0.1/-/2ms GET /contract/brc20] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:48:07,683 ERROR 1552 [-/::1/-/9ms GET /contract/brc20/txs?page=0&pageSize=20] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:49:53,798 ERROR 1552 [-/::1/-/6ms GET /contract/qrc20] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:49:53,805 ERROR 1552 [-/127.0.0.1/-/1ms GET /contract/qrc20/txs?page=0&pageSize=20] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:50:03,567 ERROR 1552 [-/127.0.0.1/-/2ms GET /contract/qrc20] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:50:03,574 ERROR 1552 [-/::1/-/1ms GET /contract/qrc20/txs?page=0&pageSize=20] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:55:26,686 ERROR 1552 [-/::1/-/3ms GET /contract/qrc20] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 06:55:26,694 ERROR 1552 [-/127.0.0.1/-/1ms GET /contract/qrc20/txs?page=0&pageSize=20] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 08:11:48,935 ERROR 1552 [-/::1/-/6ms GET /contract/undefined] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 08:12:00,610 ERROR 1552 [-/::1/-/3ms GET /contract/undefined] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 08:12:15,666 ERROR 1552 [-/::1/-/2ms GET /contract/undefined] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 08:12:58,903 ERROR 1552 [-/127.0.0.1/-/5ms GET /contract/undefined] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 08:13:19,708 ERROR 1552 [-/127.0.0.1/-/2ms GET /contract/undefined] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 08:17:31,047 ERROR 1552 [-/::1/-/4ms GET /contract/undefined] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+
+2020-11-28 08:17:45,583 ERROR 1552 [-/127.0.0.1/-/3ms GET /contract/undefined] nodejs.TypeError: Cannot read property 'type' of undefined
+    at contract (/root/bitstashinfo-api/app/middleware/contract.js:16:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at /root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at /root/bitstashinfo-api/node_modules/koa-compose/index.js:36:12
+    at dispatch (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:39)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+    at async cors (/root/bitstashinfo-api/node_modules/@koa/cors/index.js:54:32)
+
+pid: 1552
+hostname: bitstash-explorer
+

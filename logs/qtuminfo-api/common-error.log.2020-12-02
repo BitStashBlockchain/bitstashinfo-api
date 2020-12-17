@@ -1,0 +1,177 @@
+2020-12-02 05:10:13,255 ERROR 5212 [-/::1/-/11ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 05:11:28,585 ERROR 5212 [-/::1/-/6ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 05:11:31,344 ERROR 5212 [-/127.0.0.1/-/25ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 05:11:35,936 ERROR 5212 [-/::1/-/5ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 05:14:37,023 ERROR 5212 [-/127.0.0.1/-/6ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 05:15:17,664 ERROR 5212 [-/127.0.0.1/-/36ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 05:15:18,930 ERROR 5212 [-/127.0.0.1/-/108ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 05:15:23,264 ERROR 5212 [-/127.0.0.1/-/24ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 05:22:01,094 ERROR 5212 [-/127.0.0.1/-/6ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 06:29:33,394 ERROR 5212 [-/::1/-/37ms GET /address/QhRYFipCsy12gYqmRFTYsQ5iPoHGAi3Xkr] nodejs.TypeError: Cannot read property 'type' of undefined
+    at /root/bitstashinfo-api/app/service/address.js:9:63
+    at Array.filter (<anonymous>)
+    at AddressService.getAddressSummary (/root/bitstashinfo-api/app/service/address.js:9:37)
+    at AddressController.summary (/root/bitstashinfo-api/app/controller/address.js:7:45)
+    at Object.callFn (/root/bitstashinfo-api/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/bitstashinfo-api/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at address (/root/bitstashinfo-api/app/middleware/address.js:27:9)
+    at async ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:33)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/root/bitstashinfo-api/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/root/bitstashinfo-api/node_modules/koa-bodyparser/index.js:86:5)
+    at async /root/bitstashinfo-api/node_modules/koa-static-cache/index.js:53:56
+    at async notfound (/root/bitstashinfo-api/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/root/bitstashinfo-api/node_modules/egg/app/middleware/meta.js:12:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 06:29:33,402 ERROR 5212 [-/127.0.0.1/-/42ms GET /address/QhRYFipCsy12gYqmRFTYsQ5iPoHGAi3Xkr/txs?page=0&pageSize=10] nodejs.TypeError: Cannot read property 'type' of undefined
+    at /root/bitstashinfo-api/app/service/address.js:88:34
+    at Array.filter (<anonymous>)
+    at AddressService.getAddressTransactions (/root/bitstashinfo-api/app/service/address.js:88:8)
+    at AddressController.transactions (/root/bitstashinfo-api/app/controller/address.js:99:64)
+    at Object.callFn (/root/bitstashinfo-api/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/bitstashinfo-api/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at pagination (/root/bitstashinfo-api/app/middleware/block-filter.js:53:9)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at pagination (/root/bitstashinfo-api/app/middleware/pagination.js:36:9)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at address (/root/bitstashinfo-api/app/middleware/address.js:27:9)
+    at async ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:33)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 06:31:06,868 ERROR 5212 [-/127.0.0.1/-/15ms GET /address/QhRYFipCsy12gYqmRFTYsQ5iPoHGAi3Xkr/txs?page=0&pageSize=10] nodejs.TypeError: Cannot read property 'type' of undefined
+    at /root/bitstashinfo-api/app/service/address.js:88:34
+    at Array.filter (<anonymous>)
+    at AddressService.getAddressTransactions (/root/bitstashinfo-api/app/service/address.js:88:8)
+    at AddressController.transactions (/root/bitstashinfo-api/app/controller/address.js:99:64)
+    at Object.callFn (/root/bitstashinfo-api/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/root/bitstashinfo-api/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/root/bitstashinfo-api/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at pagination (/root/bitstashinfo-api/app/middleware/block-filter.js:53:9)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at pagination (/root/bitstashinfo-api/app/middleware/pagination.js:36:9)
+    at dispatch (/root/bitstashinfo-api/node_modules/koa-compose/index.js:44:32)
+    at next (/root/bitstashinfo-api/node_modules/koa-compose/index.js:45:18)
+    at address (/root/bitstashinfo-api/app/middleware/address.js:27:9)
+    at async ratelimit (/root/bitstashinfo-api/node_modules/koa-ratelimit/index.js:78:33)
+    at async /root/bitstashinfo-api/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/root/bitstashinfo-api/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 07:50:38,588 ERROR 5212 [-/::1/-/33ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 07:51:21,122 ERROR 5212 [-/127.0.0.1/-/28ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 07:57:48,167 ERROR 5212 [-/::1/-/27ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 08:04:12,397 ERROR 5212 [-/127.0.0.1/-/23ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5212
+hostname: bitstash-explorer
+
+2020-12-02 08:34:45,483 ERROR 5212 [-/::1/-/32ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5212
+hostname: bitstash-explorer
+

@@ -1,0 +1,24 @@
+2020-12-02 00:00:01,015 INFO 1552 [egg-logrotator] app logger reload: got log-reload message
+2020-12-02 03:29:49,673 INFO 5212 [egg:logger] init all loggers with options: {"dir":"/root/bitstashinfo-api/logs/bitstashinfo-api","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"bitstashinfo-api-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-02 03:29:49,711 INFO 5212 [egg-multipart] stream mode enable
+2020-12-02 03:29:49,751 INFO 5212 [egg-redis] server connecting redis://:***@localhost:6379/0
+2020-12-02 03:29:50,331 INFO 5212 [egg-static] starting static serve /public/ -> /root/bitstashinfo-api/app/public
+2020-12-02 03:29:50,334 INFO 5212 [egg-security] use csrf middleware
+2020-12-02 03:29:50,335 INFO 5212 [egg-security] use methodnoallow middleware
+2020-12-02 03:29:50,335 INFO 5212 [egg-security] use noopen middleware
+2020-12-02 03:29:50,336 INFO 5212 [egg-security] use nosniff middleware
+2020-12-02 03:29:50,336 INFO 5212 [egg-security] use xssProtection middleware
+2020-12-02 03:29:50,337 INFO 5212 [egg-security] use xframe middleware
+2020-12-02 03:29:50,338 INFO 5212 [egg-security] use dta middleware
+2020-12-02 03:29:50,338 INFO 5212 [egg-security] compose 7 middlewares into one security middleware
+2020-12-02 03:29:50,367 INFO 5212 [egg:core] dump config after load, 6ms
+2020-12-02 03:29:50,404 INFO 5212 [egg-redis] client connect success
+2020-12-02 03:29:50,416 INFO 5212 [egg-redis] instance[0] status OK, client ready
+2020-12-02 03:29:50,418 INFO 5212 [egg-watcher:application] watcher start success
+2020-12-02 03:29:50,497 INFO 5212 [egg:core] dump config after ready, 17ms
+2020-12-02 04:30:00,018 INFO 5212 [-/127.0.0.1/-/6ms SCHEDULE /__schedule?path=/root/bitstashinfo-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/tmp/egg-multipart-tmp/bitstashinfo-api"
+2020-12-02 04:30:00,035 INFO 5212 [-/127.0.0.1/-/23ms SCHEDULE /__schedule?path=/root/bitstashinfo-api/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-12-03 00:00:00,041 INFO 5212 [egg-logrotator] start remove /root/bitstashinfo-api/logs/bitstashinfo-api files: common-error.log.2020-11-01, egg-agent.log.2020-11-01, egg-schedule.log.2020-11-01, egg-web.log.2020-11-01, bitstashinfo-api-web.log.2020-11-01
+2020-12-03 00:00:00,045 INFO 5212 [egg-logrotator] clean all log before 31 days
+2020-12-03 00:00:01,008 INFO 5212 [egg-logrotator] broadcast log-reload
+2020-12-03 00:00:01,013 INFO 5212 [egg-logrotator] rotate files success by DayRotator, files ["/root/bitstashinfo-api/logs/bitstashinfo-api/common-error.log -> /root/bitstashinfo-api/logs/bitstashinfo-api/common-error.log.2020-12-02","/root/bitstashinfo-api/logs/bitstashinfo-api/bitstashinfo-api-web.log -> /root/bitstashinfo-api/logs/bitstashinfo-api/bitstashinfo-api-web.log.2020-12-02","/root/bitstashinfo-api/logs/bitstashinfo-api/egg-web.log -> /root/bitstashinfo-api/logs/bitstashinfo-api/egg-web.log.2020-12-02","/root/bitstashinfo-api/logs/bitstashinfo-api/egg-schedule.log -> /root/bitstashinfo-api/logs/bitstashinfo-api/egg-schedule.log.2020-12-02","/root/bitstashinfo-api/logs/bitstashinfo-api/egg-agent.log -> /root/bitstashinfo-api/logs/bitstashinfo-api/egg-agent.log.2020-12-02"]

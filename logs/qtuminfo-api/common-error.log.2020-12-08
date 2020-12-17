@@ -1,0 +1,6 @@
+2020-12-08 13:38:28,145 ERROR 5212 [-/127.0.0.1/-/10ms GET /address/f56925c66135dedbddfab4c2d31673cb28baaf14/balance-history?page=0&pageSize=100] nodejs.TypeError: Cannot read property 'map' of undefined
+    at AddressController.balanceHistory (/root/bitstashinfo-api/app/controller/address.js:222:34)
+
+pid: 5212
+hostname: bitstash-explorer
+
